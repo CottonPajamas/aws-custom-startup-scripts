@@ -4,7 +4,7 @@
 
 <br>
 
-## aws-custom-startup-scripts
+## Custom startup scripts for AWS
 Compilation of useful startup scripts that can be used in AWS.
 
 <br>
