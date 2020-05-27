@@ -16,7 +16,3 @@ chmod 640 /etc/squid/squid.conf
 systemctl start squid
 systemctl enable squid
 systemctl status squid
-
-# Add this line below in the EC2 'Step 3: Configure Instance Details', specifically under the 'Advanced Details' > 'User Data' section.
-# This is to specify the IPs that you want to whitelist and allow access to your FP remotely
-# echo "IP_ADDRESS" > /etc/squid/whitelisted_ips.txt
