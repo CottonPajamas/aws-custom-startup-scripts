@@ -18,4 +18,5 @@ sudo su
 curl https://cottonpajamas.github.io/aws-custom-startup-scripts/squid/start.sh --output /home/ec2-user/start.sh
 chmod +x /home/ec2-user/start.sh
 . /home/ec2-user/start.sh
+echo "<<list_of_IPs>>" > /etc/squid/whitelisted_ips.txt
 ```
