@@ -1,4 +1,4 @@
-*Want to view deployed app? Go here --> [Svelte app deployed to GitHub Pages](https://cottonpajamas.github.io/aws-custom-startup-scripts/)*
+*Want to view custom startup scripts? Go here --> [Custom AWS scripts deployed to GitHub Pages](https://cottonpajamas.github.io/aws-custom-startup-scripts/)*
 
 ---
 
