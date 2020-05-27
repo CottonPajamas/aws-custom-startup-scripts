@@ -11,7 +11,7 @@ Compilation of useful startup scripts that can be used in AWS.
 
 *Setting up Squid HTTP forward proxy : [Squid startup script](https://raw.githubusercontent.com/CottonPajamas/aws-custom-startup-scripts/master/squid/start.sh)*
 <br>
-  - Copy this to the 'User data' section under 'Step 3: Configure Instance Details':
+  - Copy this to the 'User data' section under the EC2 'Step 3: Configure Instance Details' > 'Advanced Details'.
 ```
 #!/bin/bash
 sudo su
