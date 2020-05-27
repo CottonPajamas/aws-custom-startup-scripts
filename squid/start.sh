@@ -4,7 +4,7 @@ yum -y install squid
 systemctl stop squid
 
 # Create backup of the original squid.conf
-mv /etc/squid/squid.conf /etc/squid/squid.conf.bak
+mv -f /etc/squid/squid.conf /etc/squid/squid.conf.bak
 
 # Downloading custom squid.conf
 curl https://cottonpajamas.github.io/aws-custom-startup-scripts/squid/squid.conf --output /etc/squid/squid.conf
