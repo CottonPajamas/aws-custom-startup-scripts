@@ -16,7 +16,7 @@ Compilation of useful startup scripts that can be used in AWS.
 #!/bin/bash
 sudo su
 echo "<<list_of_IPs>>" > /home/ec2-user/whitelisted_ips.txt
-curl https://cottonpajamas.github.io/aws-custom-startup-scripts/squid/start.sh --output /home/ec2-user/start.sh
+curl https://cottonpajamas.github.io/aws-custom-startup-scripts-ec2/squid/start.sh --output /home/ec2-user/start.sh
 chmod +x /home/ec2-user/start.sh
 . /home/ec2-user/start.sh
 ```
