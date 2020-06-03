@@ -7,7 +7,7 @@ systemctl stop squid
 mv -f /etc/squid/squid.conf /etc/squid/squid.conf.bak
 
 # Downloading custom squid.conf
-curl https://cottonpajamas.github.io/aws-custom-startup-scripts/squid/squid.conf --output /etc/squid/squid.conf
+curl https://raw.githubusercontent.com/CottonPajamas/aws-custom-startup-scripts-ec2/master/squid/squid.conf --output /etc/squid/squid.conf
 
 # Setting file permissions
 chmod 640 /etc/squid/squid.conf
